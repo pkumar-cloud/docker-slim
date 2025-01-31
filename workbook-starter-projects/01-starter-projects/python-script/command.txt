@@ -1,0 +1,3 @@
+docker run --rm --name python-container 
+-v "/Users/pradeekumar/ghub/docker-slim/workbook-starter-projects/01-starter-projects/python-script:/app/" 
+python:3.8.19-slim python /app/script.py Hello From Pradeep

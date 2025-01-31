@@ -1,0 +1,3 @@
+docker run --rm --name ruby-container \
+-v "/Users/pradeekumar/ghub/docker-slim/workbook-starter-projects/01-starter-projects/ruby-user-input:/app/" \
+ruby:3.0.0 ruby /app/script.rb

@@ -1,0 +1,5 @@
+docker run --rm --name go-container \
+-v "/Users/pradeekumar/ghub/docker-slim/workbook-starter-projects/01-starter-projects/go-environment-variables:/app/" \
+-e MESSAGE="Hello From Pradeep" \
+golang:1.16 \
+go run /app/main.go
